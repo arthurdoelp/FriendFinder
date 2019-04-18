@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Friend Finder - Survey</title>
+
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>Survey Questions</h1>
+                <h3>About You</h3>
+                <!-- Survey Form -->
+                <form role="form">
+                    <div class="form-group">
+                        <label for="name">Name (required)</label>
+                        <input type="text" class="form-control" id="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="photo">Your Photo (required)</label>
+                        <input type="text" class="form-control" id="photo">
+                    </div>
+                    <div class="form-group">
+                        <label for="q1">1. What city would you like to live in?</label>
+                        <select class="form-control" id="q1">
+                            <option value="" disabled selected>Select an option</option>
+                            <option value="1">Sydney</option>
+                            <option value="2">Florence</option>
+                            <option value="3">San Francisco</option>
+                            <option value="4">Paris</option>
+                            <option value="5">Berlin</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="q2">2. What is your go-to comfort food?</label>
+                        <select class="form-control" id="q2">
+                            <option value="" disabled selected>Select an option</option>
+                            <option value="1">Chicken Noodle Soup</option>
+                            <option value="2">Pizza</option>
+                            <option value="3">Fried Chicken</option>
+                            <option value="4">Nachos</option>
+                            <option value="5">Grilled Cheese</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="q3">3. For a dream vacation, where would you travel?</label>
+                        <select class="form-control" id="q3">
+                            <option value="" disabled selected>Select an option</option>
+                            <option value="1">Tahiti</option>
+                            <option value="2">Tokyo</option>
+                            <option value="3">Madrid</option>
+                            <option value="4">Santorini</option>
+                            <option value="5">Nice</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="q4">4. Pick a sweet food you like</label>
+                        <select class="form-control" id="q4">
+                            <option value="" disabled selected>Select an option</option>
+                            <option value="1">Ice Cream</option>
+                            <option value="2">Hot Chocolate</option>
+                            <option value="3">Cookies</option>
+                            <option value="4">Donuts</option>
+                            <option value="5">Crepes</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="q5">5. Choose a fruit</label>
+                        <select class="form-control" id="q5">
+                            <option value="" disabled selected>Select an option</option>
+                            <option value="1">Pineapple</option>
+                            <option value="2">Peach</option>
+                            <option value="3">Raspberry</option>
+                            <option value="4">Cherry</option>
+                            <option value="5">Blueberry</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="q6">6. Which word would you use to describe yourself?</label>
+                        <select class="form-control" id="q6">
+                            <option value="" disabled selected>Select an option</option>
+                            <option value="1">Flirty</option>
+                            <option value="2">Easygoing</option>
+                            <option value="3">Charming</option>
+                            <option value="4">Serious</option>
+                            <option value="5">High-Maintenance</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="q7">7. At a bar or restaurant your ideal background music is:</label>
+                        <select class="form-control" id="q7">
+                            <option value="" disabled selected>Select an option</option>
+                            <option value="1">Jazz</option>
+                            <option value="2">Indie/Eclectic</option>
+                            <option value="3">Retro</option>
+                            <option value="4">Exotic and chill</option>
+                            <option value="5">Classical</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="q8">8. If you were giving a casual toast among friends, what would you toast
+                            to?</label>
+                        <select class="form-control" id="q8">
+                            <option value="" disabled selected>Select an option</option>
+                            <option value="1">To friendship</option>
+                            <option value="2">To fun times</option>
+                            <option value="3">To life</option>
+                            <option value="4">To health</option>
+                            <option value="5">To world peace</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="q9">9. Which Region's vineyards would you most like to tour?</label>
+                        <select class="form-control" id="q9">
+                            <option value="" disabled selected>Select an option</option>
+                            <option value="1">Australia</option>
+                            <option value="2">Chile</option>
+                            <option value="3">South Africa</option>
+                            <option value="4">France</option>
+                            <option value="5">Italy</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="q10">10. Which superhero do you identify with?</label>
+                        <select class="form-control" id="q10">
+                            <option value="" disabled selected>Select an option</option>
+                            <option value="1">Black Widow</option>
+                            <option value="2">Spiderman</option>
+                            <option value="3">The Pink Power Ranger</option>
+                            <option value="4">Batman</option>
+                            <option value="5">Iron Man</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary submit">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <!--This is the modal that pops up if there is a match-->
+        <div class="modal fade" id="matchModal" tabindex="-1" role="dialog" aria-labelledby="matchModalTitle"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="matchModalTitle">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body" id="matchModalBody">
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <p>
+                    <a href="/api/friends">API Friends Link</a>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
+
+<!-- BELOW CODE IS CRITICAL. IT HANDLES HOW FORM DATA IS SENT TO OUR SERVER -->
+<script type="text/javascript">
+    
+    var scores = [];
+
+    $(".submit").on("click", function (event) {
+        event.preventDefault();
+
+        // Here we grab the form elements
+        var newFormResponse = {
+            name: $("#name").val().trim(),
+            photo: $("#photo").val().trim(),
+            question1: $("#q1").val().trim(),
+            question2: $("#q2").val().trim(),
+            question3: $("#q3").val().trim(),
+            question4: $("#q4").val().trim(),
+            question5: $("#q5").val().trim(),
+            question6: $("#q6").val().trim(),
+            question7: $("#q7").val().trim(),
+            question8: $("#q8").val().trim(),
+            question9: $("#q9").val().trim(),
+            question10: $("#q10").val().trim()
+        };
+
+        scores.push(parseInt(newFormResponse.question1));
+        scores.push(parseInt(newFormResponse.question2));
+        scores.push(parseInt(newFormResponse.question3));
+        scores.push(parseInt(newFormResponse.question4));
+        scores.push(parseInt(newFormResponse.question5));
+        scores.push(parseInt(newFormResponse.question6));
+        scores.push(parseInt(newFormResponse.question7));
+        scores.push(parseInt(newFormResponse.question8));
+        scores.push(parseInt(newFormResponse.question9));
+        scores.push(parseInt(newFormResponse.question10));
+
+
+        var newFriend = {
+            name: newFormResponse.name,
+            photo: newFormResponse.photo,
+            scores: scores
+        }
+
+
+        // This line is the magic. It"s very similar to the standard ajax function we used.
+        // Essentially we give it a URL, we give it the object we want to send, then we have a "callback".
+        // The callback is the response of the server. In our case, we set up code in api-routes that "returns" true or false
+        // depending on if a tables is available or not.
+
+        $.post("/api/friends", newFriend,
+            function (data) {
+
+                // If there is data, show the modal
+                if (data) {
+                    //console.log(data);
+                    $("#matchModalTitle").text(data.name);
+                    var newImg = $("<img>");
+                    newImg.attr("src", data.photo);
+                    newImg.attr("width", "100%");
+                    $('#matchModal').modal('show');
+                    $("#matchModalBody").append(newImg);
+                }
+
+                else {
+                    alert("Sorry you do not have a match");
+                }
+
+
+                // Clear the form when submitting
+                $("#name").val("");
+                $("#photo").val("");
+                $("#q1").val("");
+                $("#q2").val("");
+                $("#q3").val("");
+                $("#q4").val("");
+                $("#q5").val("");
+                $("#q6").val("");
+                $("#q7").val("");
+                $("#q8").val("");
+                $("#q9").val("");
+                $("#q10").val("");
+
+            });
+        
+
+
+    });
+</script>
